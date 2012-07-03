@@ -1,0 +1,105 @@
+.RiceBallsDropdown span,
+.RiceBall span { display: none; }
+.RiceBallsDropdown,
+.RiceBall {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 18px;
+    width: 18px;
+    vertical-align: top;
+}
+.RiceBallAGBIC { background-image: url('riceballs/AGBIC.png'); width: 32px; }
+.RiceBallAmbivalent { background-image: url('riceballs/Ambivalent.png'); }
+.RiceBallAngel { background-image: url('riceballs/Angel.png'); width: 30px; }
+.RiceBallAngry { background-image: url('riceballs/Angry.png'); }
+.RiceBallBlush { background-image: url('riceballs/Blush.png'); }
+.RiceBallBugEyed { background-image: url('riceballs/BugEyed.png'); }
+.RiceBallConfused { background-image: url('riceballs/Confused.png'); }
+.RiceBallCrazy { background-image: url('riceballs/Crazy.png'); }
+.RiceBallCrying { background-image: url('riceballs/Crying.png'); }
+.RiceBallFootInMouth { background-image: url('riceballs/FootInMouth.png'); }
+.RiceBallFrown { background-image: url('riceballs/Frown.png'); }
+.RiceBallGasp { background-image: url('riceballs/Gasp.png'); }
+.RiceBallGrin { background-image: url('riceballs/Grin.png'); }
+.RiceBallHalo { background-image: url('riceballs/Halo.png'); }
+.RiceBallHeart { background-image: url('riceballs/Heart.png'); }
+.RiceBallHot { background-image: url('riceballs/Hot.png'); }
+.RiceBallKiss { background-image: url('riceballs/Kiss.png'); }
+.RiceBallLargeGasp { background-image: url('riceballs/LargeGasp.png'); }
+.RiceBallLaugh { background-image: url('riceballs/Laugh.png'); }
+.RiceBallLipsAreSealed { background-image: url('riceballs/LipsAreSealed.png'); }
+.RiceBallLove { background-image: url('riceballs/Love.png'); }
+.RiceBallMoneyMouth { background-image: url('riceballs/MoneyMouth.png'); }
+.RiceBallNaughty { background-image: url('riceballs/Naughty.png'); }
+.RiceBallNerd { background-image: url('riceballs/Nerd.png'); }
+.RiceBallOhNoes { background-image: url('riceballs/OhNoes.png'); }
+.RiceBallPirate { background-image: url('riceballs/Pirate.png'); }
+.RiceBallSarcastic { background-image: url('riceballs/Sarcastic.png'); }
+.RiceBallSick { background-image: url('riceballs/Sick.png'); }
+.RiceBallSmile { background-image: url('riceballs/Smile.png'); }
+.RiceBallStickingOutTongue { background-image: url('riceballs/StickingOutTongue.png'); }
+.RiceBallThumbsDown { background-image: url('riceballs/ThumbsDown.png'); }
+.RiceBallThumbsUp { background-image: url('riceballs/ThumbsUp.png'); }
+.RiceBallTrophy { background-image: url('riceballs/Trophy.png'); }
+.RiceBallUndecided { background-image: url('riceballs/Undecided.png'); }
+.RiceBallVeryAngry { background-image: url('riceballs/VeryAngry.png'); }
+.RiceBallWink { background-image: url('riceballs/Wink.png'); }
+.RiceBallYum { background-image: url('riceballs/Yum.png'); }
+
+.RiceBallsWrapper {
+    text-align: right;
+    position: relative;
+}
+.RiceBallsDropdown {
+    display: block;
+    height: 23px;
+    width: 29px;
+    background: url('arrow.png') 0 -23px no-repeat;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    right: -7px;
+    cursor: pointer;
+
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+.RiceBallsDropdown:hover, .RiceBallsDropdownActive {
+    background: url('arrow.png') 0 0 no-repeat;
+}
+.RiceBallsDropdownActive {
+    background-color: #eee;
+}
+.RiceBallContainer {
+    position: absolute;
+    top: 21px;
+    right: -8px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-right: 0;
+    width: 207px;
+    text-align: left;
+    float: right;
+    box-shadow: 2px 2px 3px #ccc;
+    -moz-box-shadow: 2px 2px 3px #ccc;
+    -webkit-box-shadow: 2px 2px 3px #ccc;
+    z-index: 1000;
+    background: #eee;
+}
+.RiceBallBox {
+    background-color: #fff;
+    background-position: center center;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-left: 0;
+    display: block;
+    float: left;
+    height: 22px;
+    width: 22px;
+    overflow: hidden;
+    cursor: pointer;
+}
