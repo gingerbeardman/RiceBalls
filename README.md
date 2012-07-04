@@ -2,6 +2,10 @@
 
 Replaces emoticons (smilies/smileys) with David Lanham's Rice Balls images from AdiumXtras.
 
+##Changelog:
+1.0.1, emotify dropdown disabled for edit comment textarea  
+1.0.0, initial release  
+
 ## Details
 See [http://vanillaforums.org/addon/riceballs-plugin](http://vanillaforums.org/addon/riceballs-plugin)
 
